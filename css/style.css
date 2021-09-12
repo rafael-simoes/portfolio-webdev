@@ -411,8 +411,9 @@ ul {
 .project-container {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
+  align-items: center;
 }
 
 .project-card {
@@ -422,9 +423,12 @@ ul {
 }
 
 .project-card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: 500px;
+  height: 300px;
+  max-height: 300px;
+  max-width: 500px;
+  object-fit: contain;
+  background-color: #F5F3FB;
 }
 
 .project-card .content {
@@ -673,7 +677,12 @@ ul {
   }
 
   .project-container {
-    grid-template-columns: repeat(2, 45%);
+    grid-template-columns: 1fr;
+  }
+
+  .project-card img {
+    max-height: 180px;
+    max-width: 300px;
   }
 
   .about-me-container,
@@ -698,7 +707,7 @@ ul {
   }
 
   .project-name {
-    font-size: 1.6rem;
+    font-size: 2rem;
     padding: 5px;
   }
 
