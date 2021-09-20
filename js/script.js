@@ -26,7 +26,7 @@ projects.forEach(project => {
     projectContainer.innerHTML += `
     <div class="project-card" data-tags="#all, ${project.tags}">
         <img src="assets/projects/${project.image}" alt="">
-        <div class="content"><a href="${project.link}" target="_blank">
+        <div class="content"><a href="${project.link}" target="_blank" rel="noreferrer">
             <h1 class="project-name">${project.name}</h1>
             <span class="tags">${project.tags}</span></a>
         </div>

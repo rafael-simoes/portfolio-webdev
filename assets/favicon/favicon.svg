@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="0.433071in" height="0.255906in"><svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="0.433071in" height="0.255906in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 433 256" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   
+    .fil0 {fill:#2B2A29;fill-rule:nonzero}
+   
+  </style>
+ </defs>
+ <g id="SvgjsG1001">
+  <metadata id="SvgjsMetadata1000"></metadata>
+  <path class="fil0" d="M188 245c5,0 10,-1 16,-4l-53 -94c12,-3 23,-9 33,-18 13,-14 20,-30 20,-49 0,-19 -7,-35 -20,-48 -14,-14 -30,-21 -49,-21l-120 0 0 234c9,0 17,-3 23,-9 7,-7 10,-14 10,-23l0 -169 87 0c10,0 18,4 25,11 7,7 11,15 11,25 0,10 -4,19 -11,26 -7,7 -15,10 -25,10l-31 0c-9,0 -17,3 -24,10 -6,6 -9,14 -9,23l43 0 45 80c5,8 10,13 16,14 5,2 10,2 13,2zm163 0c25,0 44,-10 58,-32 6,-10 9,-22 9,-34 0,-13 -3,-24 -9,-34l0 -1c-13,-19 -30,-30 -54,-32l-60 0c-10,0 -18,-4 -25,-11 -6,-7 -9,-14 -9,-23 0,-10 3,-18 10,-25 7,-6 15,-10 24,-10l90 0c9,0 17,-3 23,-9 7,-7 10,-14 10,-24l-123 0c-18,0 -34,7 -47,20 -13,13 -20,29 -20,48 0,12 3,23 9,34 12,19 30,30 54,32l60 0c9,0 17,4 24,10 7,7 10,15 10,25 0,10 -4,19 -12,25 -7,6 -14,9 -23,9l-89 0c-9,0 -17,3 -23,9 -7,7 -10,14 -10,23l123 0z"></path>
+ </g>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: contrast(1) brightness(0.1); } }
+</style></svg>
