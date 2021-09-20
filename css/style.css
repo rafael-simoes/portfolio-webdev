@@ -526,8 +526,8 @@ ul {
 }
 
 /* tablet */
-
-@media(max-width:996px) {
+/* 
+@media(max-width:996px) */ @media(max-width:1500px){
   html {
     font-size: 14px;
   }
@@ -635,6 +635,7 @@ ul {
     grid-template-columns: repeat(2, 1fr);
 
   }
+  .project-container{justify-items: center;}
 
   .skill-card {
     grid-column: 1 span !important;
