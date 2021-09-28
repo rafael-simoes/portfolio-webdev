@@ -209,25 +209,13 @@ ul {
   position: relative;
 }
 
-/* .left-col::before {
-  content: 'yes, its me';
-  text-transform: capitalize;
-  position: absolute;
-  right: 0;
-  top: -20px;
+.social-icon {
+  font-size: 2rem;
 }
+.social-icon:nth-child(0){margin-left: 30px;}
 
-.left-col::after {
-  content: '';
-  position: absolute;
-  top: -10px;
-  right: 80px;
-  width: 50px;
-  height: 2px;
-  background: #fff;
-  transform-origin: right;
-  transform: rotate(-30deg);
-} */
+.left-col a:visited, .left-col a:active{color: #fff !important;}
+
 
 .about-image {
   border-radius: 10px;
@@ -452,7 +440,8 @@ ul {
 
 /* tablet */
 /* 
-@media(max-width:996px) */ @media(max-width:1500px){
+@media(max-width:996px) */
+@media(max-width:1500px) {
   html {
     font-size: 14px;
   }
@@ -560,15 +549,24 @@ ul {
     grid-template-columns: repeat(2, 1fr);
 
   }
-  .project-container{justify-items: center;}
+
+  .project-container {
+    justify-items: center;
+  }
 
   .skill-card {
     grid-column: 1 span !important;
   }
-  .project-card img{height: 200px;
-  width: 333px;}
-  .project-card {height: 200px;
-  width: 333px;}
+
+  .project-card img {
+    height: 200px;
+    width: 333px;
+  }
+
+  .project-card {
+    height: 200px;
+    width: 333px;
+  }
 }
 
 /* mobile */
@@ -619,8 +617,11 @@ ul {
     max-height: 180px;
     max-width: 300px;
   }
-  .project-card{width: 300px;
-  height: 180px;}
+
+  .project-card {
+    width: 300px;
+    height: 180px;
+  }
 
   .about-me-container,
   .skill-container,
@@ -675,7 +676,7 @@ ul {
     font-size: 1.1rem;
   }
 
-  
+
 
   .links-container {
     font-size: 1.3rem;
