@@ -211,6 +211,7 @@ ul {
 
 .social-icon {
   font-size: 2rem;
+  color: #fff !important;
 }
 .social-icon:nth-child(0){margin-left: 30px;}
 
